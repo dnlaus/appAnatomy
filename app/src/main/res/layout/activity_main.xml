@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.test.appanatomy.MainActivity"
+    android:padding="10dp">
+
+    <Button
+        android:id="@+id/layouts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openActivity"
+        android:text="Layouts"/>
+
+    <Button
+        android:id="@+id/basic_components"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openActivity"
+        android:text="Componentes basicos"/>
+
+    <Button
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openActivity"
+        android:text="RecyclerView"/>
+
+    <Button
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openActivity"
+        android:text="ViewPager"/>
+
+    <Button
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openActivity"
+        android:text="Toolbar"/>
+
+    <Button
+        android:id="@+id/menus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openActivity"
+        android:text="Menus"/>
+
+</LinearLayout>

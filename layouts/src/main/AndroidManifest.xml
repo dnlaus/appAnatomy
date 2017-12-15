@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.test.layouts">
+
+    <application>
+        <activity android:name=".LayoutActivity">
+        </activity>
+        <activity android:name=".LinearLayoutActivity">
+        </activity>
+        <activity android:name=".RelativeLayoutActivity">
+        </activity>
+        <activity android:name=".FrameLayoutActivity">
+        </activity>
+        <activity android:name=".CoordinatorLayoutActivity">
+        </activity>
+        <activity
+            android:name=".DrawerLayoutActivity"
+            android:label="@string/title_activity_drawer_layout"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+    </application>
+
+</manifest>

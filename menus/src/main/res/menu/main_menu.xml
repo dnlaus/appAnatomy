@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="Refresh"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action1"
+        android:title="Action1"/>
+
+    <item
+        android:id="@+id/action2"
+        android:title="Action2"/>
+
+    <item
+        android:id="@+id/action3"
+        android:title="Action3"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="Settings"/>
+
+
+</menu>
